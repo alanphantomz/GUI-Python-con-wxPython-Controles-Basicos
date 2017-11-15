@@ -1,0 +1,10 @@
+# son archivos generados
+# automaticamente por el compilador
+
+# ignorar archivos *.a
+*.xml
+
+# ignorar todos los archivos en
+# el directorio .idea/
+
+.idea/
