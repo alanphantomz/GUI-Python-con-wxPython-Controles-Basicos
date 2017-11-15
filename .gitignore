@@ -1,7 +1,7 @@
 # son archivos generados
 # automaticamente por el compilador
 
-# ignorar archivos *.a
+# ignorar archivos *.xml
 *.xml
 
 # ignorar todos los archivos en
