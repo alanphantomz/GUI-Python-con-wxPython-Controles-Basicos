@@ -2,7 +2,7 @@ import wx
 class MyPanel(wx.Panel):
     def __init__(self, parent):
         super(MyPanel, self).__init__(parent)
-        b = wx.Button(self, label = "Btn", pos = (50,50))
+        b = wx.Button(self, label = "propagar", pos = (50,50))
         b.Bind(wx.EVT_BUTTON, self.btnclk)
         self.Bind(wx.EVT_BUTTON, self.OnButtonClicked)
 
