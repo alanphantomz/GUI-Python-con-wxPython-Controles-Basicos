@@ -41,7 +41,6 @@ class MyWindow(wx.Frame):
 
         self.Centre()
         self.Show()
-        self.Fit()
 
     def OnKeyTyped(self, event):
         print event.GetString()

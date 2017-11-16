@@ -42,7 +42,6 @@ class MyWindow(wx.Frame):
 
         self.Centre()
         self.Show()
-        self.Fit()
 
     def OnClicked(self, event):
         btn = event.GetEventObject().GetLabel()
